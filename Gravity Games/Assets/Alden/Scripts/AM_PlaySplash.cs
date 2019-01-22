@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-public class PlaySplash : MonoBehaviour
+public class AM_PlaySplash : MonoBehaviour
 {
     public RawImage rawImage;
     public VideoPlayer videoPlayer;

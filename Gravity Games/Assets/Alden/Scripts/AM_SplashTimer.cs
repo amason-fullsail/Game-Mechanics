@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SplashTimer : MonoBehaviour
+public class AM_SplashTimer : MonoBehaviour
 {
     public float sceneLength = 5.0f; 
 
