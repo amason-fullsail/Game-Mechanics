@@ -21,6 +21,6 @@ public class AM_SplashTimer : MonoBehaviour
 
     void timerEnded()
     {
-        SceneManager.LoadScene("EC_MainMenuScene", LoadSceneMode.Additive);
+        SceneManager.LoadScene("EC_MainMenuScene");
     }
 }
