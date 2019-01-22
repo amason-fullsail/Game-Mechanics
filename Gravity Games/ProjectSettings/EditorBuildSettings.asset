@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alden/Scenes/AM_SplashScreen.unity
     guid: d389b5b984eb761469293cf1f28e5ab7
+  - enabled: 1
+    path: Assets/Erik_E/EC_MainMenuScene.unity
+    guid: 559ab5917fd8df849b1eec587c8757e1
+  - enabled: 1
+    path: Assets/Devin_Pierre/Scenes/Test scene.unity
+    guid: a50bee17ebd74f749a1225984b63bc8e
   m_configObjects: {}
