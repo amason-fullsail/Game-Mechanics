@@ -22,9 +22,4 @@ public class QuitGame : MonoBehaviour
         Application.Quit();
 #endif
     }
-
-    void Update()
-    {
-        
-    }
 }
