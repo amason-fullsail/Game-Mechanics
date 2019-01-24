@@ -17,7 +17,7 @@ public class CharacterMovement : MonoBehaviour
        
         controller = GetComponent<CharacterController>();
 
-        gameObject.transform.position = new Vector3(0, 5, 0);
+       
 
     }
 
