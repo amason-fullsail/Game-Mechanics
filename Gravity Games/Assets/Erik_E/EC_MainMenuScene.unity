@@ -3449,6 +3449,7 @@ GameObject:
   - component: {fileID: 1986875360}
   - component: {fileID: 1986875359}
   - component: {fileID: 1986875358}
+  - component: {fileID: 1986875361}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -3555,6 +3556,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986875356}
   m_CullTransparentMesh: 0
+--- !u!114 &1986875361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986875356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 612fffee3a25acf429508ebe1f4e6b35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quitButton: {fileID: 1986875358}
 --- !u!1 &1987074250
 GameObject:
   m_ObjectHideFlags: 0
