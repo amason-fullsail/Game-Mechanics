@@ -12,8 +12,8 @@ public class RotatePad : MonoBehaviour
     Quaternion startRotationPlayer, endRotationPlayer;
     [SerializeField]
     bool rotateClockwise = false;
-    public RotationState rotationState;
 
+    
 
 
     private void OnTriggerEnter(Collider other)

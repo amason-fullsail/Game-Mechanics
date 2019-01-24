@@ -8,7 +8,7 @@ public class CompleteCameraController : MonoBehaviour
     public GameObject Player;
     private Vector3 offset;
    
-    public RotationState rotationState;
+    
     private Vector3 notRotated = new Vector3(0,0,0);
     private Vector3 Rotated = new Vector3(0, -90, 0);
 
