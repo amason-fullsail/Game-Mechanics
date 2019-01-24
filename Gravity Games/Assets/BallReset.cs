@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class BallReset : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private Transform otherObject;
+    private Vector3 respawnPoint;
+
     void Start()
     {
-        
+        respawnPoint = otherObject.transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    void OnCollisionEnter(Collision other)
     {
-        
+        if (other.gameObject.name == otherObject.gameObject.name)
+        {
+            otherObject.transform.position = respawnPoint;
+        }
     }
 }
