@@ -105,6 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8c2f41c5ea88c43b4c8770a97adde4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  camera: {fileID: 3344160033783439471, guid: c484ee9d282b9e14494d052be9e6ae4f, type: 3}
   player: {fileID: 8321434792606812178, guid: 2fc2b55764428e7468f41a82688a0121, type: 3}
   rotateClockwise: 1
