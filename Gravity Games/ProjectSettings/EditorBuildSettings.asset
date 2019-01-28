@@ -15,8 +15,11 @@ EditorBuildSettings:
     path: Assets/Devin_Pierre/Scenes/Test scene.unity
     guid: a50bee17ebd74f749a1225984b63bc8e
   - enabled: 1
-    path: Assets/Alden/yeehaw.unity
-    guid: 7e92c1f856857ba4cb2b25677f2170d8
+    path: Assets/Erik_E/EC_Level.unity
+    guid: 774e52901403a7949a2c00a69dfd36bb
+  - enabled: 1
+    path: Assets/Alden/Scenes/AM_FunTime.unity
+    guid: 1af45c297317cb84d8043f6ceb425690
   - enabled: 1
     path: Assets/IndianaBOB.unity
     guid: ff1d6766b62679349809aa573d5f993c
