@@ -4,21 +4,29 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 {
-    [SerializeField] private Transform player;
+    [SerializeField] private Transform Player;
     [SerializeField] private Transform respawnPoint;
 
 
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("dead");
-        player.gameObject.GetComponent<CharacterMovement>().enabled = false;
-        player.position = respawnPoint.position;
+        Player.gameObject.GetComponent<CharacterMovement>().enabled = false;
+        Player.position = respawnPoint.position;
         Invoke("EnableCharMovement", 0.01f);
-        Debug.Log("deadw " + player.position);
+        Debug.Log("deadw " + Player.position);
     }
 
     void EnableCharMovement()
     {
-        player.gameObject.GetComponent<CharacterMovement>().enabled = true;
+        Player.gameObject.GetComponent<CharacterMovement>().enabled = true;
     }
+
+
+
+
+
 }
+
+
+
