@@ -15,7 +15,7 @@ public class BallReset : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.name == otherObject.gameObject.name)
+        if (other.gameObject == otherObject.gameObject)
         {
             otherObject.transform.position = respawnPoint;
         }
