@@ -19,6 +19,5 @@ public class FallingPlatform : MonoBehaviour
     {
         yield return new WaitForSeconds(fallTimer);
         GetComponent<Rigidbody>().isKinematic = false;
-        Debug.Log("big anime titty");
     }
 }
