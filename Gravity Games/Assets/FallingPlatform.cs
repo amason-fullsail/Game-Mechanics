@@ -6,8 +6,9 @@ public class FallingPlatform : MonoBehaviour
 {
     public float fallTimer = 1.5f;
 
-    void OnCollisionEnter(Collision collidedWithThis)
+    void OnTriggerEnter(Collider collidedWithThis)
     {
+        Debug.Log("COLLIDE WITH: " + collidedWithThis.gameObject.tag);
         if (collidedWithThis.gameObject.tag == "Player")
         {
             StartCoroutine(FallAfterDelay());

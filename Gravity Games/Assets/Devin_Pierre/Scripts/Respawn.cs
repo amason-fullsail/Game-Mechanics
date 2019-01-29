@@ -10,11 +10,14 @@ public class Respawn : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("dead");
-        Player.gameObject.GetComponent<CharacterMovement>().enabled = false;
-        Player.position = respawnPoint.position;
-        Invoke("EnableCharMovement", 0.01f);
-        Debug.Log("deadw " + Player.position);
+        if (other.gameObject.transform == Player)
+        {
+            Debug.Log("dead");
+            Player.gameObject.GetComponent<CharacterMovement>().enabled = false;
+            Player.position = respawnPoint.position;
+            Invoke("EnableCharMovement", 0.01f);
+            Debug.Log("deadw " + Player.position);
+        }
     }
 
     void EnableCharMovement()
