@@ -3043,7 +3043,7 @@ MonoBehaviour:
       localPivot: {x: -0.5, y: 9.142822}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: 66ecb4d099091564e9d70dde50953a57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -3072,7 +3072,7 @@ MonoBehaviour:
       localPivot: {x: 14.168131, y: 9.142822}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: 66ecb4d099091564e9d70dde50953a57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -3101,7 +3101,7 @@ MonoBehaviour:
       localPivot: {x: 0.5, y: 9.142822}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: 66ecb4d099091564e9d70dde50953a57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -3130,7 +3130,7 @@ MonoBehaviour:
       localPivot: {x: -14.168131, y: 9.142822}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: 66ecb4d099091564e9d70dde50953a57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -3159,7 +3159,7 @@ MonoBehaviour:
       localPivot: {x: 0.5, y: 14.168131}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: 66ecb4d099091564e9d70dde50953a57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -3188,7 +3188,7 @@ MonoBehaviour:
       localPivot: {x: -0.5, y: 14.168131}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: 66ecb4d099091564e9d70dde50953a57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -3322,7 +3322,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8b2a439797e983848ab4601ca3fcb8f5, type: 2}
+  - {fileID: 2100000, guid: 66ecb4d099091564e9d70dde50953a57, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
