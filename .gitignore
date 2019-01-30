@@ -3,6 +3,7 @@
 [Oo]bj/
 [Ll]ogs/
 [Pp]ackages/
+Assets/ProCore*
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
